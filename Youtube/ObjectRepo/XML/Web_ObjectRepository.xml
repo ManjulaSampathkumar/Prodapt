@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objectrepository>
+
+<page name="Login">
+
+	<object name="Logo">
+	<locatortype>XPath</locatortype>
+    <locatorvalue>//ytd-topbar-logo-renderer[@id='logo']</locatorvalue>
+	</object>
+	
+	<object name="SignInButton">
+	<locatortype>XPath</locatortype>
+    <locatorvalue>(//tp-yt-paper-button[@aria-label='Sign in'])[1]</locatorvalue>
+	</object>
+	
+	<object name="EnterEmail">
+	<locatortype>XPath</locatortype>
+    <locatorvalue>//input[@type='email']</locatorvalue>
+	</object>
+	
+	<object name="NextButton">
+	<locatortype>XPath</locatortype>
+    <locatorvalue>//span[text()='Next']</locatorvalue>
+	</object>
+	
+	<object name="Password">
+	<locatortype>XPath</locatortype>
+    <locatorvalue>//input[@type='password']</locatorvalue>
+	</object>
+	
+	<object name="IncorrectPassword">
+	<locatortype>XPath</locatortype>
+    <locatorvalue>//span[text()='Wrong password. Try again or click Forgot password to reset it.']</locatorvalue>
+	</object>
+	
+	<object name="ProfileIcon">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//button[contains(@aria-label,'Account profile photo')]</locatorvalue>
+	</object>
+		
+</page>
+
+<page name="Search">
+
+	<object name="SearchBar">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//input[@id='search']</locatorvalue>
+	</object>
+	
+	<object name="SearchIcon">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//button[@id='search-icon-legacy']</locatorvalue>
+	</object>
+	
+	<object name="SearchMic">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//button[@aria-label='Search with your voice']</locatorvalue>
+	</object>
+	
+	<object name="emptyState">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//*[@icon-name='promo-full-height:EMPTY_SEARCH']</locatorvalue>
+	</object>
+	
+	<object name="Searchresults">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//ytd-video-renderer</locatorvalue>
+	</object>
+	
+</page>
+
+<page name="Playback">
+
+	<object name="Pause">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//button[@title='Pause (k)']</locatorvalue>
+	</object>
+	
+	<object name="Play">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//button[@title='Play (k)']</locatorvalue>
+	</object> 
+	
+	<object name="SkipButton">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//button[@class='ytp-ad-skip-button ytp-button']</locatorvalue>
+	</object>
+	
+	<object name="current time">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//span[@class='ytp-time-current']</locatorvalue>
+	</object>
+</page>
+
+<page name="Upload">
+
+	<object name="createChannel">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//yt-formatted-string[text()='Create a channel']</locatorvalue>
+	</object>
+	
+	<object name="CreateChannelPopup">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//yt-formatted-string[text()='CREATE CHANNEL']</locatorvalue>
+	</object>
+	
+	<object name="YourChannel">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//yt-formatted-string[text()='Your channel']</locatorvalue>
+	</object>
+	
+	<object name="upload">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//yt-formatted-string[text()='Upload video']</locatorvalue>
+	</object>
+	
+	<object name="select">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//*[text()='Select files']</locatorvalue>
+	</object>
+	
+	<object name="uploadcomplete">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//tp-yt-iron-icon[@icon='yt-studio-icons:check_circle']</locatorvalue>
+	</object>
+	
+	<object name="nextButton">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//*[text()='Next']</locatorvalue>
+	</object>
+	
+	<object name="kidsButton">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//tp-yt-paper-radio-button[@name='MADE_FOR_KIDS']</locatorvalue>
+	</object>
+	
+	<object name="Private">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//tp-yt-paper-radio-button[@name='PRIVATE']</locatorvalue>
+	</object>
+	
+	<object name="Save">
+	<locatortype>XPath</locatortype>
+	<locatorvalue>//*[text()='Save']</locatorvalue>
+	</object>
+	
+	
+</page>
+
+</objectrepository>
